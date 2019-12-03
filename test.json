@@ -1,0 +1,14 @@
+{"data":
+[
+    {
+    "id":"example1",
+    "sentence1": "خالد يعمل , خديجة كذلك ولكن هي تحب * العمل أكثر",
+    "sentence2": "",
+    "azp_index": [8,-1],
+    "candidate_start_indices": [[0, 3],[-1]],
+    "candidate_end_indices": [[0, 3],[-1]],
+    "labels": [0, 1]
+    }
+]
+}
+

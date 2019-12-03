@@ -1,0 +1,24 @@
+{"data":
+[
+    {
+    "id":"example1",
+    "sentence1": "نشرت الصحيفة عن الأحداث وقالت * أن الأحداث ستسوء في حال تدخل أطراف أخرى",
+    "sentence2": "",
+    "azp_index": [5, -1],
+    "candidate_start_indices": [[1, 3],[-1]],
+    "candidate_end_indices": [[1, 3],[-1]],
+    "labels": [1, 0]
+    }
+    ,
+    {
+    "id":"example2",
+    "sentence1": "نشرت الصحيفة عن الأحداث",
+    "sentence2": "وقالت * أن الأحداث ستسوء في حال تدخل أطراف أخرى",
+    "azp_index": [-1, 1],
+    "candidate_start_indices": [[1, 3],[-1]],
+    "candidate_end_indices": [[1, 3],[-1]],
+    "labels": [1, 0]
+    }
+]
+}
+
