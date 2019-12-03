@@ -1,6 +1,7 @@
 This a cross-lingual zero pronoun resolution using BERT and other positional features as well. 
 
-json files represent the training and testing datasets. Json is formatted as:
+Json files show we represent the data to our model. Json is formatted as:
+
 "id": example id 
 "sentence1": sentence 1, 
 "sentence2": sentence 2 (if exists),
@@ -9,7 +10,9 @@ json files represent the training and testing datasets. Json is formatted as:
 "candidate_end_indices": [[end indices of candidates in sentence 1],[end indices of candidates in sentence 2]],
 "labels": [candidate labels]
 
-In train.json, we show how we represent a data instance when it appears in only one sentence and when it appears in two sentences. 
+In train.json, we show how we represent one data instance when it appears as one sentence and when it appears as two sentences. 
 
-OntoNotes 5.0 is copyrighted but freely available at https://catalog.ldc.upenn.edu/LDC2013T19
+OntoNotes 5.0 text is copyrighted, but freely available at https://catalog.ldc.upenn.edu/LDC2013T19
 
+
+Note: We also included BERT tokenization file. We made it work smoothly with get_wordpiece_indices() function (check line 211 for more information).
