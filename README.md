@@ -1,4 +1,4 @@
-This is a cross-lingual zero pronoun resolution using BERT and other positional features as well. 
+This is a cross-lingual zero pronoun resolution using BERT with other positional features as well. 
 
 Json files show we represent the data to our model. Json is formatted as:
 
