@@ -18,7 +18,8 @@ Json files show we represent the data to our model. Json is formatted as:
 
 In train.json, we show how we represent one data instance for two cases: 
 
-1) AZP and its candidates in one sentence.  2) AZP in one sentence and candidates in another  
+1) AZP and its candidates in one sentence.
+2) AZP in one sentence, and candidates in another  
 
 OntoNotes 5.0 text is copyrighted, but freely available at https://catalog.ldc.upenn.edu/LDC2013T19
 
