@@ -1,6 +1,8 @@
 This is a cross-lingual zero pronoun resolution using BERT with other positional features as well. 
 
-Json files show we represent the data to our model. Json is formatted as:
+Json files show we represent the data to our model. 
+
+Json files are formatted as:
 
   "id": train/test id
 
